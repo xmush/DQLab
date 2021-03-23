@@ -14,8 +14,8 @@ jumlah_artikel_jeruk = 0
 jumlah_artikel_salak = 0
 for judul in judul_artikel:
     if judul.count("Jeruk") > 0: 
-        jumlah_artikel_jeruk += judul.count("Jeruk")
+        jumlah_artikel_jeruk += 1
     if judul.count("Salak") > 0:
-        jumlah_artikel_salak += judul.count("Salak")
+        jumlah_artikel_salak += 1
 print(jumlah_artikel_jeruk) 
 print(jumlah_artikel_salak)
